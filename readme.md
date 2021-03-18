@@ -13,7 +13,25 @@ See [here](https://medium.com/sonabstudios/setting-up-github-on-aws-cloud9-with-
 
 ## Kafka Setup
 
+Note - assumes a single cluster... or that you want the first one in the list...
+
 ```
 # In the env file
 . ./kafka.env
 ```
+
+## Java and Mvn
+
+Install mvn
+
+```
+sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+sudo yum install -y apache-maven
+```
+
+Now repair java via `sudo alternatives --config java` to select Java 11 instead of the manky Java 7 that gets installed with mvn for who knows what reason.
+
+## Misc Tips
+
+Shut it down - sudo poweroff
