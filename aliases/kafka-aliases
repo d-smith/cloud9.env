@@ -1,0 +1,1 @@
+alias cstate="aws kafka describe-cluster --cluster-arn $MSKARN | jq -r .ClusterInfo.State"
