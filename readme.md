@@ -35,3 +35,13 @@ Now repair java via `sudo alternatives --config java` to select Java 11 instead 
 ## Misc Tips
 
 Shut it down - sudo poweroff
+
+## Serverless framework
+
+npm install -g serverless
+
+## Node
+
+Update node js
+
+Node instructions available [here](https://docs.aws.amazon.com/cloud9/latest/user-guide/sample-nodejs.html)
