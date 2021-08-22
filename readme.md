@@ -11,6 +11,10 @@ sudo yum install sudo
 
 See [here](https://medium.com/sonabstudios/setting-up-github-on-aws-cloud9-with-ssh-2545c4f989ea)
 
+### Resizing
+
+See [here](https://docs.aws.amazon.com/cloud9/latest/user-guide/move-environment.html#move-environment-resize)
+
 ## Kafka Setup
 
 Note - assumes a single cluster... or that you want the first one in the list...
