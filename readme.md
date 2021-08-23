@@ -3,10 +3,6 @@
 Set up, config, tips for cloud ide usage
 
 
-## Environment additions
-
-sudo yum install sudo
-
 ### Resizing
 
 See [here](https://docs.aws.amazon.com/cloud9/latest/user-guide/move-environment.html#move-environment-resize)
@@ -19,6 +15,14 @@ bash resize.sh 20
 
 See [here](https://medium.com/sonabstudios/setting-up-github-on-aws-cloud9-with-ssh-2545c4f989ea)
 
+Note: use ssh for cloning, not https.
+
+Also note you will need to configure you git user name and email, e.g.
+
+```
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+```
 
 ## Kafka Setup
 
